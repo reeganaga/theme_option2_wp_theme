@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Basic bootstrap Child Pertama
+ Theme URI:    http://example.com/basic_bootstrap-child/
+ Description:  Basic bootstrap Child Theme
+ Author:       Rega Cahya Gumilang
+ Author URI:   http://example.com
+ Template:     basic_bootstrap
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+body {
+	background-color: black;
+}
