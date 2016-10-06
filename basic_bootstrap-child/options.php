@@ -7,6 +7,7 @@ function optionsframework_option_name() {
 	return 'options-framework-theme';
 }
 
+
 /**
  * Defines an array of options that will be used to generate the settings page and be saved in the database.
  * When creating the 'id' fields, make sure to use all lowercase and no spaces.
@@ -23,6 +24,7 @@ function optionsframework_options() {
 	// If using image radio buttons, define a directory path
 	$imagepath =  get_template_directory_uri() . '/images/';
 
+    		// var_dump(of_get_option('upload_logo'));
 	// var_dump();
 
 	$options = array();
@@ -35,7 +37,7 @@ function optionsframework_options() {
 	$options[] = array(
 		'name' => __( 'Logo Upload', 'theme-textdomain' ),
 		'desc' => __( 'Upload to costumized your logo.', 'theme-textdomain' ),
-		'id' => 'upload_logo',
+		'id' => 'custom_upload_logo',
 		'type' => 'upload'
 	);
 

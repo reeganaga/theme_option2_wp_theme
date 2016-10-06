@@ -14,11 +14,11 @@
     <body>
 
     	<div class="container">
-    		
+
     		<!-- Static navbar -->
     	<div class="row">
     		<div class="col-md-2">
-    			<img src="<?php echo of_get_option('upload_logo'); ?>" style="max-height: 99px;">
+    			<img src="<?php echo of_get_option('custom_upload_logo'); ?>" style="max-height: 99px;">
     		</div>
     		<div class="col-md-10">
     			<h4 style="vertical-align: bottom;line-height: 67px;"><?php echo of_get_option('custom_blog_description'); ?></h4>

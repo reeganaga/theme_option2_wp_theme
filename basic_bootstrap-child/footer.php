@@ -1,7 +1,8 @@
     <footer class="footer">
       <div class="container">
       	<div class="col-md-6">
-        	<p class="text-muted m-20"><?php echo of_get_option('footer_copyright'); ?></p>
+        <!-- of_get_option( 'example_radio', 'no entry' ) -->
+        	<p class="text-muted m-20"><?php echo of_get_option('footer_copyright','no entry'); ?></p>
       	</div>
       	<div class="col-md-6">
 	        <p class="text-muted m-20 pull-right">

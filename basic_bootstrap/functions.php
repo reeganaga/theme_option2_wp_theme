@@ -1,7 +1,15 @@
 <?php 
 // See the __() WordPress function for valid values for $text_domain.
 
+define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/options-framework/' );
+require_once dirname( __FILE__ ) . '/options-framework/options-framework.php';
 
+// define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/options-framework/' );
+// require_once dirname( __FILE__ ) . '/options-framework/options-framework.php';
+
+ $optionsfile = locate_template( 'options.php' );
+ load_template( $optionsfile );
+// die();
 function arphabet_widgets_init() {
 
 	register_sidebar( array(

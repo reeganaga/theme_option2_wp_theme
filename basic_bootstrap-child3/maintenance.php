@@ -10,7 +10,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="panel panel-default">
-				<h1>Website Under Contruction</h1>
+				<h1>Website Under Maintenance</h1>
 			</div>
 		</div>
 	</div>
